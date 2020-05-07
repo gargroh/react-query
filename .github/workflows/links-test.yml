@@ -6,8 +6,8 @@ on:
       - 'master'
   pull_request:
 
-  linkstest:
-    name: 'Doc links check'
+  links:
+    name: 'Doc links checkddd'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
