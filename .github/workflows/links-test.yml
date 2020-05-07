@@ -17,7 +17,7 @@ jobs:
       - uses: urlstechie/urlchecker-action@0.2.1
         with:
           # A subfolder or path to navigate to in the present or cloned repository
-          subfolder: .
+          subfolder: /github/workspace/
 
           # A comma-separated list of file types to cover in the URL checks
           file_types: .md
