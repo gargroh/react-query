@@ -6,7 +6,7 @@ on:
       - 'master'
   pull_request:
 
-  checks-broken-links:
+  linkstest:
     name: 'Doc links check'
     runs-on: ubuntu-latest
     steps:
